@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');  
+ *{  
+   box-sizing: border-box;  
+ }  
+ body{  
+   margin: 0;  
+   font-family: "Poppins", sans-serif;  
+  background-image: url('https://media.istockphoto.com/photos/abstract-blurry-background-with-smoke-3d-render-picture-id1169375665?k=6&m=1169375665&s=170667a&w=0&h=QtQO65vVWDJbFTuPZIknaD0glFi3QE_m0a2wNrrMR0Q=');
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    background-position: center;     
+  align-items: center;  
+  justify-content: center;   
+	 align-content: center;
+   }  
+   .pw-container{  
+     width: 400px;
+     border-radius: 15px;  
+     background-color: #514F4F;  
+     box-shadow: 0 4px 10px rgba(0,0,0,0.6); 
+	 margin-right: 400px;
+	 margin-top: 40px;
+	align-content: center;
+   }  
+    .pw-header{  
+     border-radius: 15px; 
+     padding: 1rem;  
+    }  
+  .pw{ 
+    border-radius: 15px;  
+    width: 100%;  
+    height: 70px;  
+    background-color: white;  
+    display: flex;  
+    align-items: center;  
+    position: relative;  
+    font-size: 1.5rem;  
+    padding: 1rem;  
+    /* overflow: auto; */  
+  }  
+  .pw button{  
+    border-radius: 15px; 
+    position: absolute;  
+    top: 0;  
+    right: 0;  
+    transform: translate(0, 50%);  
+    transition: opacity 0.2s ease, transform 0.2s ease;  
+    opacity: 0;  
+    background-color: #514F4F;  
+    padding: 0.25rem 1rem;  
+    font-family: inherit;  
+    font-weight: bold;  
+    color: #fff;  
+    border: none;  
+    cursor: pointer;  
+   }  
+   .pw:hover button{  
+     border-radius: 15px; 
+     opacity: 1;  
+     transform: translate(0,-80%);  
+   }  
+    .pw-body{  
+      border-radius: 15px; 
+     padding: 0 1rem 1rem;  
+    }  
+  .form-control{  
+    border-radius: 15px; 
+    color: #eee;  
+  display: flex;  
+  justify-content: space-between;  
+  margin: 0.75rem 0;  
+  }  
+  .generate{  
+    border-radius: 15px; 
+    display: block;  
+    background-color: #3B3737;  
+    color: white;  
+    font-weight: bold;  
+    padding: 1rem;  
+    font-size: 1.5rem;  
+    margin-top: 1rem;  
+    border: none;  
+    width: 100%;  
+    cursor: pointer;  
+  }  
+.generate:hover{  
+    background-color: white;  
+    color: #3B3737;  
+  }  
+#conteur
+{
+	margin-left : 215px; 
+	width: 900px;
+}
+#title1
+{
+ font-family:  cursive; 
+ font-size: 80px;
+}
+header
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.P1
+{
+	border :0px;
+	border-radius: 10px;
+	width: 90px;
+	height: 50px;
+	background-color: #514F4F;
+	float: left;
+	text-align: center;
+	color: white;
+    
+}
+.P1:hover{
+	background-color: white;
+	color: #514F4F;
+	border: 3px solid #514F4F;
+}
+.P2
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P3
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: #514F4F;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P3:hover{
+	background-color: white;
+	color: #514F4F;
+	border: 3px solid #514F4F;
+}
+.P4
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P5
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: #514F4F;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P5:hover{
+	background-color: white;
+	color: #514F4F;
+	border: 3px solid #514F4F;
+}
+.P6
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P7
+{
+	border :0px;
+	border-radius: 10px;
+	width: 150px;
+	height: 50px;
+	background-color: #514F4F;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P7:hover{
+	background-color: white;
+	color: #514F4F;
+	border: 3px solid #514F4F;
+}
+.P8
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P9
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: #514F4F;
+	float: left;
+	text-align: center;
+    color: white;
+}
+.P9:hover{
+	background-color: white;
+	color: #514F4F;
+	border: 3px solid #514F4F;
+}
+.P10
+{
+	width: 10px;
+    height: 50px;
+    float: left;
+    color: white;
+}
+.P11
+{
+	border :0px;
+	border-radius: 10px;
+	width: 140px;
+	height: 50px;
+	background-color: #514F4F;
+	float: left;
+	text-align: center;
+	color: white;
+}
+.P11:hover{
+	background-color: white;
+	color: #514F4F;
+	border: 3px solid #514F4F;
+}
+.w{
+	font-weight: bold;
+	margin-left: 40%;
+	border :0px;
+	border-radius: 20px;
+	width: 270px;
+	height: 35px;
+	background-color: white;
+	float: none;
+	text-align: center;
+	color: #514F4F;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	margin-top: 80px;
+	
+}
+footer
+{
+	background-image: url('https://media.istockphoto.com/photos/abstract-blurry-background-with-smoke-3d-render-picture-id1169375665?k=6&m=1169375665&s=170667a&w=0&h=QtQO65vVWDJbFTuPZIknaD0glFi3QE_m0a2wNrrMR0Q=');  
+    background-repeat: no-repeat;  
+    background-size: cover;  
+    background-position: center;  
+    background-attachment: fixed;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	color: white;
+	clear: left;
+	padding-top:20px; 
+	margin-top: 10px;
+	border-radius: 20px;
+	display: inline-block;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2),0 5px 5px 0 rgba(0,0,0,0.25);
+}

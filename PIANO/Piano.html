@@ -1,0 +1,156 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <title>Accuiel</title>
+   <link rel="stylesheet" href="style.css" type="text/css"/>
+	 <style>
+	.instgrame{
+			width: 45px;
+			height: 40px;
+			border-radius: 20px;
+		}
+	 
+</style>
+ </head>  
+ <body>  
+<div id="conteur">
+	<header>
+    <div id="f">
+    	<a href="..\index.php"><div class="P1"><br><b>Menu</b></div></a>
+        <div class="P2"></div>
+    	<a href="..\About.php"><div class="P3"><br><b>About</b></div></a>
+        <div class="P4"></div>
+    	<a href="..\Services.php"><div class="P5"><br><b>Services</b></div></a>
+        <div class="P6"></div>
+    	<a href="..\Projects.php"><div class="P7"><br><b>Projects</b></div></a>
+        <div class="P8"></div>
+    	<a href="..\Clients.php"><div class="P9"><br><b>Clients</b></div></a>
+        <div class="P10"></div>
+    	<a href="..\Contacts.php"><div class="P11"><br><b>Contacts</b></div></a>
+    </div>
+	</header>
+</div><br>
+  <section id="wrap">  
+   <header>  
+    <h1>JS Piano</h1>  
+    <h2>Use your keyboard. Hover for hints.</h2>  
+   </header>  
+   <section id="main">  
+    <div class="nowplaying"></div>  
+    <div class="keys">  
+     <div data-key="65" class="key" data-note="C">  
+       <span class="hints">A</span>  
+     </div>  
+     <div data-key="87" class="key sharp" data-note="C#">  
+       <span class="hints">W</span>  
+     </div>  
+     <div data-key="83" class="key" data-note="D">  
+       <span class="hints">S</span>  
+     </div>  
+     <div data-key="69" class="key sharp" data-note="D#">  
+       <span class="hints">E</span>  
+     </div>  
+     <div data-key="68" class="key" data-note="E">  
+       <span class="hints">D</span>  
+     </div>  
+     <div data-key="70" class="key" data-note="F">  
+       <span class="hints">F</span>  
+     </div>  
+     <div data-key="84" class="key sharp" data-note="F#">  
+       <span class="hints">T</span>  
+     </div>  
+     <div data-key="71" class="key" data-note="G">  
+       <span class="hints">G</span>  
+     </div>  
+     <div data-key="89" class="key sharp" data-note="G#">  
+       <span class="hints">Y</span>  
+     </div>  
+     <div data-key="72" class="key" data-note="A">  
+       <span class="hints">H</span>  
+     </div>  
+     <div data-key="85" class="key sharp" data-note="A#">  
+       <span class="hints">U</span>  
+     </div>  
+     <div data-key="74" class="key" data-note="B">  
+       <span class="hints">J</span>  
+     </div>  
+     <div data-key="75" class="key" data-note="C">  
+       <span class="hints">K</span>  
+     </div>  
+     <div data-key="79" class="key sharp" data-note="C#">  
+       <span class="hints">O</span>  
+     </div>  
+     <div data-key="76" class="key" data-note="D">  
+       <span class="hints">L</span>  
+     </div>  
+     <div data-key="80" class="key sharp" data-note="D#">  
+       <span class="hints">P</span>  
+     </div>  
+     <div data-key="186" class="key" data-note="E">  
+       <span class="hints">;</span>  
+     </div>  
+    </div>  
+    <audio data-key="65" src="http://carolinegabriel.com/demo/js-keyboard/sounds/040.wav"></audio>  
+    <audio data-key="87" src="http://carolinegabriel.com/demo/js-keyboard/sounds/041.wav"></audio>  
+    <audio data-key="83" src="http://carolinegabriel.com/demo/js-keyboard/sounds/042.wav"></audio>  
+    <audio data-key="69" src="http://carolinegabriel.com/demo/js-keyboard/sounds/043.wav"></audio>  
+    <audio data-key="68" src="http://carolinegabriel.com/demo/js-keyboard/sounds/044.wav"></audio>  
+    <audio data-key="70" src="http://carolinegabriel.com/demo/js-keyboard/sounds/045.wav"></audio>  
+    <audio data-key="84" src="http://carolinegabriel.com/demo/js-keyboard/sounds/046.wav"></audio>  
+    <audio data-key="71" src="http://carolinegabriel.com/demo/js-keyboard/sounds/047.wav"></audio>  
+    <audio data-key="89" src="http://carolinegabriel.com/demo/js-keyboard/sounds/048.wav"></audio>  
+    <audio data-key="72" src="http://carolinegabriel.com/demo/js-keyboard/sounds/049.wav"></audio>  
+    <audio data-key="85" src="http://carolinegabriel.com/demo/js-keyboard/sounds/050.wav"></audio>  
+    <audio data-key="74" src="http://carolinegabriel.com/demo/js-keyboard/sounds/051.wav"></audio>  
+    <audio data-key="75" src="http://carolinegabriel.com/demo/js-keyboard/sounds/052.wav"></audio>  
+    <audio data-key="79" src="http://carolinegabriel.com/demo/js-keyboard/sounds/053.wav"></audio>  
+    <audio data-key="76" src="http://carolinegabriel.com/demo/js-keyboard/sounds/054.wav"></audio>  
+    <audio data-key="80" src="http://carolinegabriel.com/demo/js-keyboard/sounds/055.wav"></audio>  
+    <audio data-key="186" src="http://carolinegabriel.com/demo/js-keyboard/sounds/056.wav"></audio>  
+    </section>  
+  </section>  
+  <video playsinline autoplay muted loop id="bgvid" poster="http://carolinegabriel.com/demo/js-keyboard/video/bg.jpg">  
+    <source src="http://carolinegabriel.com/demo/js-keyboard/video/bg.mp4" type="video/mp4">  
+  </video>  
+  <script src="javascript.js"></script>
+<footer>
+	<table cellpadding="0" cellspacing="0" width="100%"> 
+	<tbody>
+		<tr> 
+			<td class="td2"> 
+				<ul type="none"> 
+					<li style="align-content: center;font-size: 24px;"><a href="..\index.php" target="_blank" rel="noopener">Tv</a></li>
+					<li style="align-content: center;font-size: 24px;"><a href="..\index.php">Photo</a></li>
+					<li style="align-content: center;font-size: 24px;"><a href="..\index.php" target="_blank" rel="noopener">Forums</a></li>
+				</ul> 
+			</td>
+			<td class="td3"> 
+				<ul type="none"> 
+					<li><a href="https://mail.google.com"/><img src="../IMAGES/email.png" class="instgrame"></a></li>
+					<li><a href="https://web.twitter.com/"><img src="../IMAGES/twitter.png" class="instgrame"></a></li>
+					<li><a href="https://web.youtube.com/"><img src="../IMAGES/youtube.png" class="instgrame"></a></li>
+				</ul> 
+			</td>
+			<td class="td4"> 
+				<ul type="none"> 
+					<li><a href="https://web.instagram.com/"><img src="../IMAGES/instagram.png" class="instgrame"></a></li>
+					<li><a href="https://web.facebook.com/"><img src="../IMAGES/facebook.png" class="instgrame"></a></li>
+					<li><a href="https://www.whatsapp.com/"><img src="../IMAGES/whatsapp.png" class="instgrame"></a></li>
+				</ul> 
+			</td>
+			<td class="td5"> 
+				<ul type="none"> 
+					<li style="align-content: center;font-size: 24px;"><a href="../index.php">Politique d'utilisation</a></li>
+					<li style="align-content: center;font-size: 24px;"><a href="../index.php">Contactez-nous</a></li>
+					<li style="align-content: center;font-size: 24px;"><a href="../index.php">faites de la publicité avec nous</a></li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</footer>
+  </body>
+ </html>  
